@@ -1,0 +1,8 @@
+Revision history for Template-Plugin-Text-Greeking
+
+0.0.2  Tue Jul 31 16:38:27 CST 2007
+* Text.Greeking now has options that delegates to underlying greeking classes.
+
+0.0.1  Tue Jul 31 15:10:38 2007
+       Initial release.
+
