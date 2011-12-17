@@ -8,7 +8,7 @@ use base "Template::Plugin";
 use Text::Greeking;
 use UNIVERSAL::require;
 
-our $VERSION = '0.0.2';
+our $VERSION = '1.0';
 
 sub new {
     my ($class, $context, $options) = @_;
