@@ -1,6 +1,5 @@
 steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
 
-svk.tagpattern = //mirror/handlino/tags/Template-Plugin-Text-Greeking-%v
+git.tagpattern = release-%v
 
 CheckChangeLog.files = Changes
-
