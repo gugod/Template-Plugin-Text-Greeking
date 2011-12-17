@@ -15,7 +15,6 @@ sub new {
     my $greeking_class = "Text::Greeking";
     $options ||= { lang => "en" };
     return sub {
-        require YAML;
         my $opt = { %$options, %{ $_[0] || {} } };
 
         if ($opt) {
